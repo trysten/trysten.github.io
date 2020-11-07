@@ -4,4 +4,3 @@
 
 layout: home
 ---
-trysten's tech blog

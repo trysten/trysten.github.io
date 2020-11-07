@@ -16,9 +16,9 @@
 title: trysten's blog
 email: trysten@sleepyowl.com
 description: >- # this '>-' symbol means to ignore newlines until the next key
-  sysadmin stuff
+  sorta sysadmin stuff
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://trysten.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: trysten_j
 github_username: trysten
 
@@ -28,6 +28,7 @@ permalink: /:year/:month/:day/:title:output_ext
 markdown: kramdown
 theme: minima
 plugins:
+  - jekyll-toc
   - jekyll-feed
 
 # Exclude from processing.

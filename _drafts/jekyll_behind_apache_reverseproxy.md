@@ -1,4 +1,5 @@
---- layout: post
+---
+layout: post
 title: Configure Apache to ProxyPass jekyll serve
 categories: Apache jekyll
 
@@ -38,5 +39,4 @@ I had to copy the default HTMLLinks from the [Apache docs](https://httpd.apache.
         ProxyHTMLURLMap "/" "/jekyll/"
     </Location>
     {% endhighlight %}
-
 

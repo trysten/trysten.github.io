@@ -22,6 +22,6 @@ So, add a line to `/etc/davfs2/secrets`:
 
 `/home/<user>/mnt/example.com <webdav user> <webdav password>`
 
-Make sure you enter the username accurately. There's no way to encrypt the password file for davfs use, so this setup is only as secure as your /etc
+Make sure you enter the username accurately. There's no built-in way to encrypt the password file for davfs use, so this setup is only as secure as your /etc
 
 [oguya]: <https://oguya.ch/posts/2015-09-01-systemd-mount-partition/> "Mounting Partition Using Systemd" 
